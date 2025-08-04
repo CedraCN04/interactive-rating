@@ -78,3 +78,36 @@
   text-transform: uppercase;
 }
 
+.btn-submit:hover {
+  background-color: hsl(25, 97%, 63%);
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  .card {
+    width: 400px;
+    padding: 2rem;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+
+  .numbers {
+    gap: 20px;
+    width: 100%;
+  }
+
+  .number {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .btn-submit {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+}
+

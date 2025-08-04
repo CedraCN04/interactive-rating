@@ -82,6 +82,22 @@
   background-color: hsl(25, 97%, 63%);
 }
 
+/* Thank you page styles */
+.thank-title {
+  margin: 1.2rem 0;
+  align-self: center;
+}
+
+.rating-selected {
+  color: hsl(25, 97%, 53%);
+  font-weight: 400;
+  background-color: hsl(213, 19%, 15%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
 /* Media queries */
 @media screen and (min-width: 768px) {
   .card {
